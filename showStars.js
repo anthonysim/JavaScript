@@ -3,7 +3,6 @@ A function that forms a "tree" based on
 the amount of rows specified.
 */
 
-
 function showStars(row) {
     let stars = ''
 
