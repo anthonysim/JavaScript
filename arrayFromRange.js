@@ -2,7 +2,6 @@
 A function that takes the min and max then fills in the numbers in between. 
 */
 
-
 const numbers = arrayFromRange(1, 4);
 
 console.log(numbers);
