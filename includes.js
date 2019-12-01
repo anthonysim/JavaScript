@@ -1,3 +1,7 @@
+/*
+A function that checks to see if a a number is inside an array.
+*/
+
 const numbers = [1, 2, 3, 4]
 
 function includes(array, searchElement) {
