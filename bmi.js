@@ -1,3 +1,8 @@
+/*
+Calculated the bmi for mark and john, compares the both person's bmis against each other
+to determine is mark has a higher bmi than john.
+*/
+
 let BMI, mass, height, mark, john;
 
 BMI = (mass, height) => (mass / (height ** 2 ));
