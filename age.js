@@ -1,3 +1,7 @@
+/*
+Takes the age and determines if "John" is a boy, teenager, young man, or a man.
+*/
+
 let firstName = 'John';
 let age = 13;
 
