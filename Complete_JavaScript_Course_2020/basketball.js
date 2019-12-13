@@ -4,11 +4,9 @@ Coding Challenge 2
 2. Decide which team wins in average (highest average score).
 */
 
-let  john, mike, mary, average;
-
-john = [89, 120, 103];
-mike = [116, 94, 123];
-mary = [97, 134, 105];
+let john = [89, 120, 103];
+let mike = [116, 94, 123];
+let mary = [97, 134, 105];
 
 avg_func = (team) => {
     return team.reduce((total, item)  => total + item) / 3;
