@@ -18,7 +18,8 @@ let johnAvg = avg_func(john);
 let mikeAvg = avg_func(mike);
 let maryAvg = avg_func(mary);
 
-console.log(johnAvg, mikeAvg, maryAvg);
+// This is just here to check the scores to make sure its running correct
+// console.log(johnAvg, mikeAvg, maryAvg);
 
 if (johnAvg > mikeAvg && johnAvg > maryAvg) {
     console.log('The winner is JOHN with an average score of: ' + johnAvg);
