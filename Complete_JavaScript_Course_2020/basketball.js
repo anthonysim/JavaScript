@@ -9,7 +9,7 @@ let mike = [116, 94, 123];
 let mary = [97, 134, 105];
 
 avg_func = (team) => {
-    return team.reduce((total, item)  => total + item) / 3;
+    return team.reduce((total, item)  => total + item) / team.length;
 }
 
 let johnAvg = avg_func(john);
