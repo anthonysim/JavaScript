@@ -51,5 +51,5 @@ tipCal = (bill) => {
         console.log(totalBill);
 }
 
-let bill = [ 124, 48, 268];
+let bill = [ 124, 48, 268 ];
 tipCal(bill);
