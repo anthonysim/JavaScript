@@ -20,7 +20,9 @@ tipCal = (bill) => {
 
     for (i in bill)
         if (bill[i] < 50) {
-            let percent = 0.20
+            let tip = bill[i] * 0.20;
+            tip = tip.toFixed(2);
+            tipsOnly.push(tip);
                     
             let total = bill[i] + (bill[i] * 0.20);
             total = total.toFixed(2);
