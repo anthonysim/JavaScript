@@ -15,17 +15,17 @@ let mark = {
     mass: 78, // in kilograms
     height: 1.69, // in meters
     calcBMI: function () {
-        this.bmi = this.mass / (this.height ** 2 ); // this refers to it's own object, "this" refers to mark.
+        this.bmi = this.mass / (this.height ** 2 );
         return this.bmi
     }
 };
 
 let john = {
     name: 'John',
-    mass: 92, // in kilograms
+    mass: 110, // in kilograms
     height: 1.95, // in meters
     calcBMI: function () {
-        this.bmi = this.mass / (this.height ** 2 ); // this refers to it's own object, "this" refers to john.
+        this.bmi = this.mass / (this.height ** 2 );
         return this.bmi
     }
 };
@@ -34,9 +34,9 @@ markBMI = mark.calcBMI();
 johnBMI = john.calcBMI();
 
 if (markBMI > johnBMI) {
-    console.log('Mark has a higher BMI than John:', markBMI);
-} else if (markBMI > johnBMI) {
-    console.log('John has a higher BMI than Mark:', johnMBI);
+    console.log('Mark has a higher BMI than John:', markBMI)
+} else if (markBMI < johnBMI) {
+    console.log('John has a higher BMI than Mark:', johnBMI)
 } else {
-    console.log('Both Mark & John have the same BMI', markBMI);
+    console.log('They have the same BMI.')
 }
