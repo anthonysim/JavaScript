@@ -34,9 +34,9 @@ markBMI = mark.calcBMI();
 johnBMI = john.calcBMI();
 
 if (markBMI > johnBMI) {
-    console.log('Mark has a higher BMI than John:', markBMI)
+    console.log('Mark has a higher BMI than John:', markBMI);
 } else if (markBMI > johnBMI) {
-    console.log('John has a higher BMI than Mark:', johnMBI)
+    console.log('John has a higher BMI than Mark:', johnMBI);
 } else {
-    console.log('Both Mark & John have the same BMI', markBMI)
+    console.log('Both Mark & John have the same BMI', markBMI);
 }
