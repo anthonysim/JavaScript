@@ -15,7 +15,7 @@ let mark = {
     mass: 78, // in kilograms
     height: 1.69, // in meters
     calcBMI: function () {
-        this.bmi = this.mass / (this.height ** 2 );
+        this.bmi = this.mass / (this.height ** 2 ); // this refers to it's own object, "this" refers to mark.
         return this.bmi
     }
 };
@@ -25,7 +25,7 @@ let john = {
     mass: 92, // in kilograms
     height: 1.95, // in meters
     calcBMI: function () {
-        this.bmi = this.mass / (this.height ** 2 );
+        this.bmi = this.mass / (this.height ** 2 ); // this refers to it's own object, "this" refers to john.
         return this.bmi
     }
 };
