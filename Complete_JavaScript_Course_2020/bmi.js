@@ -13,6 +13,6 @@ mark = BMI(78, 1.69);
 john = BMI(92, 1.95);
 console.log(mark, john);
 
-let versus = Boolean(mark > john)
+let versus = Boolean(mark > john);
 
 console.log("Is Mark's BMI higher than Johns?", versus);
