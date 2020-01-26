@@ -1,0 +1,52 @@
+/* This grabs everything in the html tag. */
+html {
+    /* This places the image as the background. */
+    background-image: url(https://i.imgur.com/b9r5sEL.jpg);
+    /* This streches the image to fill up the screen */
+    background-size: cover;
+    /* sets the font for everything in the html tag. */
+    font-family: sans-serif;
+}
+
+/* This grabs all the kbd tag */
+kbd {
+    /* Changes it to blocks (new line). */
+    display: block;
+    /* Changes the font size. */
+    font-size: 4rem;
+    color: white;
+}
+
+/* This grabs everything in the "sound" class. */
+.sound {
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    color: gold
+    
+}
+
+/* This grabs everything under the "keys" class. */
+.keys {
+    /* this flips vertical to horizontal. */
+    display: flex;
+    /* this centers everything in the middle. */
+    justify-content: center;
+}
+
+/* this grabs each key */
+.key {
+    /* border with line and color. */
+    border: .4rem solid black;
+    /* rounds the border */
+    border-radius: 1rem;
+    /* The space around the item. */
+    margin: 27rem 1rem 1rem;
+    /* the width for each item. */
+    width: 8rem;    
+    /* the padding inside the box. */
+    padding: .1rem;
+    /* aligns the text center. */
+    text-align: center;
+    /* the background color. */
+    background: rgba(0, 0, 0, 0.411);
+}

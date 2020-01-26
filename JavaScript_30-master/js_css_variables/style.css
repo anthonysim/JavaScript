@@ -1,0 +1,58 @@
+/* grabs everything in the html in a high level and
+sets the global css variables.*/
+:root {
+  /* this sets the base color. */
+  --base: #ffc600;
+  /* this sets the base spacing. */
+  --spacing: 10px;
+  /* this sets the base blur. */
+  --blur: 10px;
+}
+
+/* grabs the image in the html. */
+img {
+  /* spacing is set from what was established in :root. */
+  padding: var(--spacing);
+  /* base color is set from what was established in :root. */
+  background: var(--base);
+  /* blue is set from what was estalbished in :root. */
+  filter: blur(var(--blur));
+}
+
+/* grabs the class="h1" in the title. */
+.hl {
+  /* base color is set from what was established in :root. */
+  color: var(--base);
+} 
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+/* grabs everything in the body element. */
+body {
+    /* everything in the body centers.*/
+    text-align: center;
+    /* this is the background color of the webpage. */
+    background: #193549;
+    /* this is for the font color. */
+    color: white;
+    /* this is for the font style. */
+    font-family: 'helvetica neue', sans-serif;
+    /* this is for the "boldness" of the font. */
+    font-weight: 100;
+    /* this is for the font */
+    font-size: 50px;
+  }
+
+  /* grabs everything in the div element */
+  .controls {
+    /* this adds separation between the controls and image. */
+    margin-bottom: 100px;
+  }
+
+  /* grabs the inputs (spacing, blue, & base color). */
+  input {
+    /* this changes how wide the inputs are. */
+    width: 100px;
+  }

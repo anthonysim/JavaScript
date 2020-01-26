@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This is the title of the index.html -->
+    <title>JS Drum Kit</title>
+    <!-- This links up to the style.css file. -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <kbd> is a tag for keyboard keys -->
+    <!-- <div> is a tag used to group different kinds of elements together.
+    This tag also starts a new line. -->
+    <!-- <span> is a tag used to group elements for styling purposes.
+    This tag stays on the same line. -->
+    <div class="keys">
+        <div class="key">
+            <kbd>A</kbd>
+            <span class="sound">CLAP</span>
+        </div>
+
+        <div class="key">
+            <kbd>S</kbd>
+            <span class="sound">HIHAT</span>
+        </div>
+
+        <div class="key">
+            <kbd>D</kbd>
+            <span class="sound">KICK</span>
+        </div>
+        
+        <div class="key">
+            <kbd>F</kbd>
+            <span class="sound">OPENHAT</span>
+        </div>
+
+        <div class="key">
+            <kbd>G</kbd>
+            <span class="sound">BOOM</span>
+        </div>
+
+        <div class="key">
+            <kbd>H</kbd>
+            <span class="sound">RIDE</span>
+        </div>
+
+        <div class="key">
+            <kbd>J</kbd>
+            <span class="sound">SNARE</span>
+        </div>
+        
+        <div class="key">
+            <kbd>K</kbd>
+            <span class="sound">TOM</span>
+        </div>
+
+        <div class="key">
+            <kbd>L</kbd>
+            <span class="sound">TINK</span>
+        </div>
+    </div>
+    <!-- The <audio> tag is a tag that holds sounds played on web pages. -->
+    <audio id="clapSound" src="./sounds/clap.wav"></audio>
+    <audio id="hiHatSound" src="./sounds/hihat.wav"></audio>
+    <audio id="kickSound" src="./sounds/kick.wav"></audio>
+    <audio id="openHatSound" src="./sounds/openhat.wav"></audio>
+    <audio id="boomSound" src="./sounds/boom.wav"></audio>
+    <audio id="rideSound" src="./sounds/ride.wav"></audio>
+    <audio id="snareSound" src="./sounds/snare.wav"></audio>
+    <audio id="tomSound" src="./sounds/tom.wav"></audio>
+    <audio id="tinkSound" src="./sounds/tink.wav"></audio>
+   
+    <!-- This is a "script" that connects to the JS Script in app.js -->
+    <script src="./app.js"></script>
+</body>
+</html>
